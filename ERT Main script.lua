@@ -31,6 +31,7 @@ local bin = creds:section("玩家信息",true)
     
     local bin = creds:section("关于脚本信息😖",true)
     bin:Label("主作者:安岭，作者QQ1759437335")
+    bin:Label("脚本永久免费")
     
 local credits = creds:section("关闭",true)
 
