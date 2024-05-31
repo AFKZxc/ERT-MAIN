@@ -263,6 +263,10 @@ end)
     credits:Button("Anli超多脚本",function()
     loadstring(game:HttpGet(""))()
 end)
+    credits:Button("k1s max",function()
+    getgenv().LS="k1s"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/krlpl/max/main/%E6%B7%B7%E6%B7%86.txt"))()
+end)
 local credits = creds:section("作者脚本",true)
     credits:Button("听说最新云脚本",function()
     _G.CloudScript = "云脚本主群号526684389"
