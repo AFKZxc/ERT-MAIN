@@ -22,7 +22,7 @@ local services = setmetatable({}, {
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/Wh7Wa8Tb"))()
 local window = library:new("ERT")
 
-local creds = window:Tab("脚本信息",'16060333448')
+local creds = window:Tab("脚本信息",'7733799682')
 
 local bin = creds:section("玩家信息",true)
 
@@ -30,7 +30,7 @@ local bin = creds:section("玩家信息",true)
     bin:Label("你的注入器:"..identifyexecutor())
     
     local bin = creds:section("关于脚本信息😖",true)
-    bin:Label("by😀")
+    bin:Label("主作者:安岭，作者QQ1759437335")
     
 local credits = creds:section("关闭",true)
 
